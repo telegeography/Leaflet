@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Leaflet : Leaflet is a modern JavaScript library for interactive maps on both desktop and mobile browsers by CloudMade. " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Leaflet</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/telegeography/Leaflet">View on GitHub</a>
+
+          <h1 id="project_title">Leaflet</h1>
+          <h2 id="project_tagline">Leaflet is a modern JavaScript library for interactive maps on both desktop and mobile browsers by CloudMade. </h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/telegeography/Leaflet/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/telegeography/Leaflet/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><img src="http://leaflet.cloudmade.com/docs/images/logo.png" alt="Leaflet"></p>
+
+<p>Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps, developed by <a href="http://cloudmade.com">CloudMade</a> to form the core of its next generation JavaScript API. Weighting just about 21kb of gzipped JS code, it still has all the <a href="http://leaflet.cloudmade.com/features.html">features</a> you will ever need for your web mapping needs while providing a fast, smooth, pleasant user experience.</p>
+
+<p>It is built from the ground up to work efficiently and smoothly on both desktop and mobile platforms like iOS and Android, utilizing cutting-edge technologies included in HTML5 and CSS3, focusing on usability, performance, small size, <a href="http://developer.yahoo.com/yui/articles/gbs/">A-grade</a> browser support, flexibility and <a href="http://leaflet.cloudmade.com/reference.html">easy to use API</a>. The OOP-based code of the library is designed to be modular, extensible and very easy to understand.</p>
+
+<p>Check out the website for more information: <a href="http://leaflet.cloudmade.com">leaflet.cloudmade.com</a></p>
+
+<h2>Contributing to Leaflet</h2>
+
+<p>Let's make the best open-source library for maps that can possibly exist!</p>
+
+<p>Contributing is simple: make the changes in your fork, make sure that Leaflet builds successfully (see below) and then create a pull request to <a href="http://github.com/mourner">Vladimir Agafonkin</a> (Leaflet maintainer). Updates to Leaflet <a href="http://leaflet.cloudmade.com/reference.html">documentation</a> and <a href="http://leaflet.cloudmade.com/examples.html">examples</a> (located in the <code>gh-pages</code> branch) are really appreciated too.</p>
+
+<p>Here's <a href="http://github.com/CloudMade/Leaflet/contributors">a list of the awesome people</a> that joined us already. Looking forward to <em>your</em> contributions!</p>
+
+<h2>Building Leaflet</h2>
+
+<p>Leaflet build system is powered by the Node.js platform and Jake, JSHint and UglifyJS libraries, which install easily and work well across all major platforms. Here are the steps to install it:</p>
+
+<ol>
+<li><a href="http://nodejs.org">Download and install Node</a></li>
+<li>
+<p>Run the following commands in the command line:</p>
+
+<pre><code>npm install -g jake
+npm install jshint
+npm install uglify-js
+</code></pre>
+</li>
+</ol><p>Now that you have everything installed, run <code>jake</code> inside the Leaflet directory. This will check Leaflet source files for JavaScript errors and inconsistencies, and then combine and compress it to the <code>dist</code> folder.</p>
+
+<p>To make a custom build of the library with only the things you need, use the build helper (<code>build/build.html</code>) to choose the components (it figures out dependencies for you) and then run the command generated with it.</p>
+
+<p>If you add any new files to the Leaflet source, make sure to also add them to <code>build/deps.js</code> so that the build system knows about them. Happy coding!</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Leaflet maintained by <a href="https://github.com/telegeography">telegeography</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
